@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.block{
+    display: flex;
+    background-color: gray;
+    height: 20rem;
+    width: fit-content;
+    border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+}
+
+.test{
+    display: flex;
+}
+.test1{
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.test2{
+    border-radius: 50px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+
+.end{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    width: 100%;
+}
